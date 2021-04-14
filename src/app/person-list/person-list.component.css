@@ -1,0 +1,19 @@
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.single-person {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.image-container {
+    border-right: 1px solid black;
+}
+.details-container {
+    margin: auto 30px;
+    display: flex;
+    flex-direction: column;
+}

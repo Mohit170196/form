@@ -1,0 +1,17 @@
+form {
+    width: 60%;
+    padding: 16px;
+    margin: auto;
+    background: #fff;
+}
+.form-group{
+    margin: 16px;
+}
+
+button {
+    margin: 16px;
+}
+
+.fL {
+    float: left;
+}

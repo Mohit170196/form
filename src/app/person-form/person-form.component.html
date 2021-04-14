@@ -1,0 +1,64 @@
+<form>
+    <h1>Add New Person</h1>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input 
+            id="firstName" 
+            [(ngModel)]="person.firstName"
+            name="firstName" 
+            type="text" 
+            class="form-control"
+        />
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input 
+            id="lastName" 
+            [(ngModel)]="person.lastName"
+            name="lastName" 
+            type="text" 
+            class="form-control"
+        />
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input 
+            id="email" 
+            [(ngModel)]="person.email"
+            name="email" 
+            type="email" 
+            class="form-control"
+        />
+    </div>
+    <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input 
+            id="dob" 
+            [(ngModel)]="person.dob"
+            name="dob" 
+            type="date" 
+            class="form-control"
+        />
+    </div>
+    <div class="form-group">
+        <label for="avatar">Avatar</label>
+        <input 
+            id="avatar" 
+            [(ngModel)]="person.avatar"
+            name="avatar" 
+            type="file" 
+            class="form-control"
+        />
+    </div>
+    <div class="form-group">
+        <label for="country">Country</label>
+        <input 
+            id="country" 
+            [(ngModel)]="person.country"
+            name="country" 
+            type="text" 
+            class="form-control"
+        />
+    </div>
+    <button (click)="add();" class="btn btn-primary">Submit</button>
+</form>
